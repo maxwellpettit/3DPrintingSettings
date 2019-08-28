@@ -1,0 +1,16 @@
+G21 ;metric values
+G90 ;absolute positioning
+M82 ;set extruder to absolute mode
+M107 ;start with the fan off
+
+G28 ; Home all axes
+G0 X4 Y4 Z0.15 F9000 ; Move to the front-left part of the bed
+G92 E0 ; Zero the extruder
+G1 X40 E25 F500 ; Extrude a fat line of filament to prime and clean the nozzle
+G92 E0 ; Zero the extruder
+G1 E-1 F500 ; Retract 1 mm
+G1 X80 F9000 ; Sweep right to cut any strings
+
+G1 F{speed_travel} 
+;Put printing message on LCD screen
+M117 Printing...
