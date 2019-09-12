@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="Maker Select V2" version="2019-09-10 13:56:31" app="S3D-Software 4.0.1">
+<profile name="Maker Select V2" version="2019-09-11 19:00:47" app="S3D-Software 4.0.1">
   <baseProfile>Default (modified)</baseProfile>
   <printMaterial>PLA</printMaterial>
   <printQuality>Medium</printQuality>
@@ -191,7 +191,7 @@
   <toolChangeExtraRestartDistance>-0.5</toolChangeExtraRestartDistance>
   <toolChangeRetractionSpeed>600</toolChangeRetractionSpeed>
   <externalThinWallType>0</externalThinWallType>
-  <internalThinWallType>2</internalThinWallType>
+  <internalThinWallType>1</internalThinWallType>
   <thinWallAllowedOverlapPercentage>10</thinWallAllowedOverlapPercentage>
   <singleExtrusionMinLength>1</singleExtrusionMinLength>
   <singleExtrusionMinPrintingWidthPercentage>50</singleExtrusionMinPrintingWidthPercentage>
